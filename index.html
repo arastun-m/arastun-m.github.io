@@ -1,0 +1,204 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+
+<head>
+  <meta name=viewport content="width=800">
+  <style type="text/css">
+    body {
+      background-color: #fff;
+      color: #333;
+    }
+
+    a {
+      color: #1772d0;
+      text-decoration: none;
+    }
+
+    a:focus,
+    a:hover {
+      color: #f09228;
+      text-decoration: none;
+    }
+
+    body, td, th, tr, p, a {
+      font-family: 'Lato', Verdana, Helvetica, sans-serif;
+      font-size: 15px;
+    }
+
+    strong {
+      font-family: 'Lato', Verdana, Helvetica, sans-serif;
+      font-size: 15px;
+    }
+
+    heading {
+      font-family: 'Lato', Verdana, Helvetica, sans-serif;
+      font-size: 22px;
+      font-weight: 700;
+      color: #333;
+      display: block;
+      margin-bottom: 6px;
+      border-bottom: 1px solid #eee;
+      padding-bottom: 4px;
+    }
+
+    papertitle {
+      font-family: 'Lato', Verdana, Helvetica, sans-serif;
+      font-size: 15px;
+      font-weight: 700;
+      color: #1772d0;
+    }
+
+    name {
+      font-family: 'Lato', Verdana, Helvetica, sans-serif;
+      font-size: 32px;
+      font-weight: 700;
+      color: #333;
+    }
+
+    .news-container {
+      max-height: 180px;
+      overflow-y: auto;
+    }
+  </style>
+  <title>Arastun Mammadli</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <base target="_blank">
+</head>
+
+<body>
+  <table width="800" border="0" align="center" cellspacing="0" cellpadding="0">
+    <tr>
+      <td>
+
+        <!-- Header: name + bio + links -->
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+          <tr>
+            <td width="67%" valign="middle">
+              <p align="center">
+                <name>Arastun Mammadli</name>
+              </p>
+              <p>
+                I am a first-year PhD student in Computer Science at the
+                <a href="https://www.exeter.ac.uk">University of Exeter</a>,
+                supervised by Prof. <a href="https://shiqiang.wang">Shiqiang Wang</a>.
+                I am also a Research Assistant at the
+                <a href="https://nlp.cs.ucl.ac.uk">UCL NLP Group</a>,
+                working with Prof. <a href="https://sites.google.com/site/emineyilmaz/">Emine Yilmaz</a>.
+              </p>
+              <p>
+                I hold a master's (Distinction) in Applied Computational Science and Engineering from
+                <a href="https://www.imperial.ac.uk">Imperial College London</a>
+                and a BSc in Computer Science (Dean's List, top 5%) from the University of Exeter.
+                During my master's I interned at
+                <a href="https://www.microsoft.com/en-us/research/about-microsoft-research/">Microsoft</a>
+                and built a multi-agent multi-modal energy management system with Azure AI
+                (<a href="https://techcommunity.microsoft.com/blog/educatordeveloperblog/conversational-agents-for-campus-energy-management/4454910">blog post</a>).
+              </p>
+              <p>
+                My research goal is to make multi-model AI systems that involve many LLMs or agents work efficiently and reliably in practice.
+                I study how models and agents should be selected, composed, and coordinated under real-world constraints: including noisy and incomplete signals, and competitive dynamics.
+              </p>
+              <p align="center">
+                <a href="mailto:arastunmammadli@gmail.com" target="_self">Email</a> &nbsp;/&nbsp;
+                <a href="https://scholar.google.com/citations?user=KYRT6FcAAAAJ&hl=en">Google Scholar</a> &nbsp;/&nbsp;
+                <a href="https://github.com/arastun-m">GitHub</a> &nbsp;/&nbsp;
+                <a href="https://www.linkedin.com/in/arastun-mammadli-068ab0228/">LinkedIn</a> &nbsp;/&nbsp;
+                <a href="cv.pdf" target="_self">CV</a>
+              </p>
+            </td>
+            <td width="33%" valign="middle" align="center">
+              <img src="photo.jpg" style="width:200px; border-radius:8px;">
+            </td>
+          </tr>
+        </table>
+
+        <!-- Publications -->
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+          <tr>
+            <td>
+              <heading>Publications</heading>
+            </td>
+          </tr>
+        </table>
+
+        <!-- Paper 1: LLM Routing -->
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+          <tr>
+            <td width="100%" valign="top">
+              <papertitle>Cost-Optimal LLM Routing with Limited User Feedback under User Satisfaction Guarantees</papertitle>
+              <br>
+              Herbert Woisetschläger, <strong>Arastun Mammadli</strong>, Ryan Zhang, Shiqiang Wang
+              <br>
+              <em>Preprint</em>, arXiv:2606.19376, 2026
+              <br>
+              <a href="https://arxiv.org/abs/2606.19376">arXiv</a>
+              <br>
+              <p>
+                We extend cost-optimal LLM routing to the realistic limited-feedback setting.
+                Our router provides formal SLA guarantees (e.g. ≥60% task accuracy) once it
+                converges from online learning, closing the gap left by prior work
+                (<a href="https://arxiv.org/abs/2505.19947">MESS+, NeurIPS 2025</a>)
+                which assumed full feedback.
+              </p>
+            </td>
+          </tr>
+        </table>
+
+        <!-- Paper 2: AgentSearchBench -->
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+          <tr>
+            <td width="100%" valign="top">
+              <papertitle>AgentSearchBench: A Benchmark for AI Agent Search in the Wild</papertitle>
+              <br>
+              Bin Wu*, <strong>Arastun Mammadli</strong>*, Xiaoyu Zhang, Emine Yilmaz
+              <br>
+              <em>Preprint</em>, arXiv:2604.22436, 2026 &nbsp; <small>(*equal contribution)</small>
+              <br>
+              <a href="https://arxiv.org/abs/2604.22436">arXiv</a> &nbsp;/&nbsp;
+              <a href="https://bingo-w.github.io/AgentSearchBench/">webpage</a> &nbsp;/&nbsp;
+              <a href="https://github.com/Bingo-W/AgentSearchBench">code</a> &nbsp;/&nbsp;
+              <a href="https://huggingface.co/AgentSearch">dataset</a>
+              <br>
+              <p>
+                Open agent environments (GPT Store, Google Cloud Marketplace, AgentAI Network) are
+                crowded with overlapping, semantically opaque agents. We formalise the agent search problem as
+                finding the right agent under user objectives and constraints, and introduce a benchmark
+                over real, noisy, publicly available agents.
+              </p>
+            </td>
+          </tr>
+        </table>
+
+        <!-- News -->
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+          <tr>
+            <td>
+              <heading>News</heading>
+              <div class="news-container">
+                <ul style="margin:0; padding-left:20px;">
+                  <li>2026-06 &nbsp; Preprint released: <a href="https://arxiv.org/abs/2606.19376">SLARouter</a>.</li>
+                  <li>2026-04 &nbsp; Preprint released: <a href="https://arxiv.org/abs/2604.22436">AgentSearchBench</a> (co-author).</li>
+                  <li>2026-05 &nbsp; Started PhD at the University of Exeter under Prof. Shiqiang Wang.</li>
+                  <li>2025-11 &nbsp; Joined UCL NLP Group as a Research Assistant with Prof. Emine Yilmaz.</li>
+                  <li>2025-06 &nbsp; Started Research Internship at Microsoft, Azure AI.</li>
+                </ul>
+              </div>
+            </td>
+          </tr>
+        </table>
+
+      </td>
+    </tr>
+  </table>
+
+  <table width="800" border="0" align="center" cellspacing="0" cellpadding="20">
+    <tr>
+      <td align="center" style="color:#aaa; font-size:13px; padding-top:0; padding-bottom:30px;">
+        With thanks to <a href="https://dachengli1.github.io/index.html" style="color:#aaa;">Dacheng Li</a>.
+      </td>
+    </tr>
+  </table>
+</body>
+
+</html>
